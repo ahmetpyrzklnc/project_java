@@ -6,8 +6,8 @@ public class kitle_indeksi {
 
 	public static void main(String[] args) {
 		
-		// kullanıcının boyunu metre cinsinden ve
-		// ağırlığı kilogram cinsinden almamız gerekir.
+		// kullanÄ±cÄ±nÄ±n boyunu metre cinsinden ve
+		// agÄ±rlÄ±gÄ±nÄ± kilogram cinsinden almamÄ±z gerekir.
 		
 		
 		double boy,kilo;
@@ -15,13 +15,13 @@ public class kitle_indeksi {
 		
 		//boy alma
 		
-		System.out.println("Lütfen boyunuzu cm cinsinden giriniz: ");
+		System.out.println("LÃ¼tfen boyunuzu cm cinsinden giriniz: ");
 		
 		boy = scan.nextDouble();
 		
-		//ağırlık alma
+		//aÄŸÄ±rlÄ±k alma
 		
-		System.out.println("Lütfen ağırlığınızı kg cinsinden giriniz: ");
+		System.out.println("LÃ¼tfen aÄŸÄ±rlÄ±ÄŸÄ±nÄ±zÄ± kg cinsinden giriniz: ");
 		
 		kilo = scan.nextDouble();
 		
@@ -31,10 +31,10 @@ public class kitle_indeksi {
 		
 		indeks = kilo / (boy*boy);
 		
-		System.out.println("Vücut kitle endeksiniz: " + indeks);
+		System.out.println("VÃ¼cut kitle endeksiniz: " + indeks);
 		
 		if(indeks<=18.5) {
-			System.out.println("Zayıfsınız.");
+			System.out.println("ZayÄ±fsÄ±nÄ±z.");
 		}
 		else if(indeks>18.5 && indeks<=24.9) {
 			System.out.println("Normal kilolusunuz.");
